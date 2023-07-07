@@ -26,8 +26,9 @@ body{
 
 .navbar .controls .two #profile{
 	border-radius: 50%;
-	height: 25px;
-	width: 25px;
+	height: 30px;
+	width: 30px;
+	max-width: 30px;
 	background: black;
 }
 
@@ -65,14 +66,14 @@ body{
 	font-weight: bold;
 }
 #username .info #user_img{
-	height: 35px;
-	width: 35px;
+	height: 40px;
+	width: 40px;
 	background-color: black;
 	border-radius: 50%;
 }
 #username .info i{
 	font-size: 15px;
-	color: #248f24;
+	color: #000066;
 }
 #username .more{
 	display: flex;
@@ -93,13 +94,38 @@ body{
 	color: black;
 	font-size: 15px;
 }
+.card #content #shared{
+	border: 1px solid gray;
+	border-radius: 10px;
+	padding: 10px;
+}
+.card #content #shared #user_name{
+	display: flex;
+}
+.card #content #shared #user_name #name{
+	font-size: 15px;
+	font-weight: bold;
+	width: 80vh;
+}
+.card #content #shared #user_name #date{
+	font-size: 13px;
+	color: gray;
+}
+
+.card #content #shared_content,
 .card #content #post_content{
 	font-family: Arial, Helvetica, sans-serif;
+}
+
+.card #content #shared_content_info{
+	display: flex;
+	margin-top: 10px;
 }
 .card #info{
 	display: flex;
 	padding: 0 10px 10px 10px;
 }
+.card #content #shared_content_info p,
 .card #info p{
 	margin-right: 5px;
 	color: gray;
@@ -113,6 +139,9 @@ body{
 .card #actions div{
 	margin-right: 13px;
 	font-size: 20px;
+}
+.card #actions #like{
+	color: #990000;
 }
 .card #actions div:active{
 	color: gray;
