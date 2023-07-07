@@ -7,10 +7,26 @@ body{
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.container{
+.navbar{
+	border-bottom: 1px solid gray;
 	padding: 10px;
 }
 
-.navbar{
-	border: 1px solid black;
+.title h1{
+	font-weight: bold;
+	font-size: 25px;
+}
+.navbar .controls{
+	display: flex;
+	margin-top: 10px;
+}
+
+.navbar .controls div{
+	margin-right: 10px;
+	padding: 5px;
+	border-radius: 10px;
+}
+.navbar .controls div:active{
+	background-color: black;
+	color: white;
 }
