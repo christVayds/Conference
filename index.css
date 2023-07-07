@@ -22,11 +22,84 @@ body{
 }
 
 .navbar .controls div{
+	font-size: 20px;
 	margin-right: 10px;
 	padding: 5px;
 	border-radius: 10px;
 }
+.navbar .controls div:not(#home){
+	color: gray;
+}
 .navbar .controls div:active{
 	background-color: black;
 	color: white;
+}
+
+.card{
+	border-bottom: 1px solid gray;
+}
+.card #username{
+	padding: 10px 10px 10px 10px;
+	display: flex;
+}
+#username .info{
+	display: flex;
+	width: 80vh;
+}
+#username .info p,
+#username .info #user_img{
+	margin-right: 5px;
+}
+#username .info #name{
+	font-size: 15px;
+	font-weight: bold;
+}
+#username .info #user_img{
+	height: 35px;
+	width: 35px;
+	background-color: black;
+	border-radius: 50%;
+}
+#username .more{
+	display: flex;
+}
+#username .more #date{
+	color: gray;
+	font-size: 13px;
+	margin-right: 10px;
+}
+#username .more i{
+	font-size: 15px;
+}
+#username .more i:active{
+	color: gray;
+}
+.card #content{
+	padding: 0 15px 15px 15px;
+	color: black;
+	font-size: 15px;
+}
+.card #content #post_content{
+	font-family: Arial, Helvetica, sans-serif;
+}
+.card #info{
+	display: flex;
+	padding: 0 10px 10px 10px;
+}
+.card #info p{
+	margin-right: 5px;
+	color: gray;
+	font-size: 13px;
+}
+.card #actions{
+	display: flex;
+	padding-left: 10px;
+	margin-bottom: 10px;
+}
+.card #actions div{
+	margin-right: 13px;
+	font-size: 20px;
+}
+.card #actions div:active{
+	color: gray;
 }
