@@ -18,19 +18,29 @@ body{
 }
 .navbar .controls{
 	display: flex;
-	margin-top: 10px;
+}
+.navbar .controls .one{
+	display: flex;
+	width: 80vh;
 }
 
-.navbar .controls div{
+.navbar .controls .two #profile{
+	border-radius: 50%;
+	height: 25px;
+	width: 25px;
+	background: black;
+}
+
+.navbar .controls .one div{
 	font-size: 20px;
 	margin-right: 10px;
 	padding: 5px;
 	border-radius: 10px;
 }
-.navbar .controls div:not(#home){
+.navbar .controls .one div:not(#home){
 	color: gray;
 }
-.navbar .controls div:active{
+.navbar .controls .one div:active{
 	background-color: black;
 	color: white;
 }
@@ -59,6 +69,10 @@ body{
 	width: 35px;
 	background-color: black;
 	border-radius: 50%;
+}
+#username .info i{
+	font-size: 15px;
+	color: #248f24;
 }
 #username .more{
 	display: flex;
