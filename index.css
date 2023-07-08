@@ -46,6 +46,10 @@ body{
 	color: white;
 }
 
+.scroll_content{
+	height: 85vh;
+}
+
 .card{
 	border-bottom: 1px solid gray;
 }
