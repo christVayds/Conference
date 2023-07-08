@@ -48,7 +48,7 @@ body{
 
 .scroll_content{
 	height: 85vh;
-	border-bottom: 1px solid black;
+	overflow-y: scroll;
 }
 
 .card{
@@ -133,6 +133,21 @@ body{
 .card #content #shared_content,
 .card #content #post_content{
 	font-family: Arial, Helvetica, sans-serif;
+}
+.card #content #photos{
+	height: 300px;
+	width: auto;
+	border-bottom: 1px solid black;
+	border-radius: 10px;
+	overflow: scroll;
+	display: flex;
+}
+.card #content #photos img{
+	width: auto;
+	height: 300px;
+	border-radius: 10px;
+	background-color: black;
+	margin-right: 5px;
 }
 
 .card #content #shared_content_info{
