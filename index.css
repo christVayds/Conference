@@ -48,6 +48,7 @@ body{
 
 .scroll_content{
 	height: 85vh;
+	border-bottom: 1px solid black;
 }
 
 .card{
