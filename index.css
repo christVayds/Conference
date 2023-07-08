@@ -124,6 +124,7 @@ body{
 .card #content #shared #user_name #name{
 	font-size: 15px;
 	font-weight: bold;
+	font-family: Verdana;
 }
 .card #content #shared #user_name #date{
 	font-size: 13px;
@@ -132,7 +133,7 @@ body{
 
 .card #content #shared_content,
 .card #content #post_content{
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: Arial;
 }
 .card #content #photos{
 	height: 300px;
