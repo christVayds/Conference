@@ -67,7 +67,7 @@ body{
 	margin-right: 5px;
 }
 #username .info #name{
-	font-size: 15px;
+	font-size: 14px;
 	font-weight: bold;
 }
 #username .info #user_img{
@@ -122,7 +122,7 @@ body{
 	width: 60vh;
 }
 .card #content #shared #user_name #name{
-	font-size: 15px;
+	font-size: 14px;
 	font-weight: bold;
 	font-family: Verdana;
 }
