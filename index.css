@@ -106,6 +106,7 @@ body{
 	border: 1px solid gray;
 	border-radius: 10px;
 	padding: 10px;
+	margin-top: 5px;
 }
 .card #content #shared #shared_info{
 	display: flex;
@@ -142,6 +143,7 @@ body{
 	border-radius: 10px;
 	overflow: scroll;
 	display: flex;
+	margin-top: 5px;
 }
 .card #content #photos img{
 	width: auto;
@@ -168,7 +170,7 @@ body{
 .card #actions{
 	display: flex;
 	padding-left: 10px;
-	margin-bottom: 10px;
+	margin-bottom: 5px;
 }
 .card #actions div{
 	margin-right: 13px;
@@ -179,4 +181,24 @@ body{
 }
 .card #actions div:active{
 	color: gray;
+}
+
+.card .write_comment{
+	display: flex;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-bottom: 5px;
+}
+.card .write_comment img{
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	margin-right: 5px;
+}
+.card .write_comment input{
+	border: 0;
+	width: 100%;
+}
+.card .write_comment input:focus{
+	outline: none;
 }
